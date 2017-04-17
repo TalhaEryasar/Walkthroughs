@@ -50,7 +50,7 @@ Mükemmel!  Sorguyu aştık.😊 Karşıma ping atmak için bir komut paneli gel
 
 Evet ping komutu doğru çalışıyor ve gelen sayfadan gördüğüm üzere (url’ye bakabilirsiniz /pingit.php) sayfa php kodları ile çalışıyor. Ben de hemen bir ; koyarak bypass denemesi yapıyorum.
     
-    $whoami
+    $ whoami
 ![whoami](/Kioptrix1.1-2/pics/7.png "whoami")
 
 Oldu! 😊 Sistem komutlarını çalıştırabildiğimi görüyorum ve ilk önce parolaları bulabileceğim /etc/passwd ve /etc/shadow dosyalarını okumaya çalışıyorum.
