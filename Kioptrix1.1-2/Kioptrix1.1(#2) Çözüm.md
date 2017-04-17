@@ -19,7 +19,7 @@ Daha sonra Kali’min bulunduğu scope taki IP’leri tarayarak devam ediyorum.
 	$ netdiscover -i eth0 -r 192.168.1.0/24
 ![Scope Tarama](/Kioptrix1.1-2/pics/2.png "netdiscover")
 
-Ve gördüğümüz gibi ip adresim geldi😊 ip adresimi bulduktan sonra yapacağımız şey hemen bir nmap taraması yapmak olacak ki açık portlardan zafiyet bulabilecek miyim kontrol etmeliyim.
+Ve gördüğümüz gibi IP adresim geldi😊 IP adresimi bulduktan sonra yapacağımız şey hemen bir nmap taraması yapmak olacak ki açık portlardan zafiyet bulabilecek miyim kontrol etmeliyim.
 	
 	$ nmap -sS -sV 192.168.1.22
 ![Port Tarama](/Kioptrix1.1-2/pics/3.png "nmap")
