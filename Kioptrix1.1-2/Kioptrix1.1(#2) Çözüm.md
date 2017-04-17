@@ -30,13 +30,17 @@ Gördüğümüz gibi açık 6 adet port bulunmakta. Burada hemen 80 portunda ça
 
 Ve karşıma bir admin paneli geliyor. MySQL servisi kullanıldığını da bildiğim için (3306 portu) hemen sql injection denemesi yapıyorum 😊
 Bu noktada sayfanın arka planda aşağıdaki gibi bir SQL Query kullandığını düşünerek 
-SELECT * FROM users WHERE username='' AND password=''
+
+	SELECT * FROM users WHERE username='' AND password=''
 
 Aşağıdaki sql injection kodunu username ve password bölümlerine girerek ,
-1’ or ‘1’=’1
+	
+	1’ or ‘1’=’1
 
 Sorguyu aşağıdaki şekle getirmeyi amaçlıyorum:
-SELECT * FROM users WHERE username='1' or '1'='1' AND password='1' or '1'='1'
+
+
+	SELECT * FROM users WHERE username='1' or '1'='1' AND password='1' or '1'='1'
 
 Eğer tahminim doğruysa basitçe username 1 ise veya 1=1 ise ve password de 1 veya 1=1 ise beni içeri al demiş oluyorum😊 ki herkesin bildiği gibi 1=1 her zaman doğrudur ve sorguyu bu şekilde bypass etmiş olurum.
 ![Ping Panel](/Kioptrix1.1-2/pics/5.png "Ping Panel")
