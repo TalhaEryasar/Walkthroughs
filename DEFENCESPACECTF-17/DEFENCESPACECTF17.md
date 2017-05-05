@@ -133,7 +133,7 @@ Veeee..... Bütün amacım burada duruyor. "Topsecret.txt" adlı bir text dosyas
 
 Bir dahaki VM çözümünde görüşmek üzere....
 
-###### sqlmap Tool Kullanımı ######
+##### sqlmap Tool Kullanımı #####
 
 Yukarda bahsettiğim gibi burda da admin sayfasında bulunan sql açıklarından yararlanarak bilgileri bize çekecek olan sqlmap tool'unu kullanarak Flag6'yı elde edeceğiz.
 
