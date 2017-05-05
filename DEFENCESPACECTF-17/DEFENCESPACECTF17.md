@@ -98,7 +98,7 @@ Bi login ekranı geldi ve her login paneli gibi benden bi kullanıcı adı ve pa
 
 Ben de yine ana web sayfasına gidip ordaki hikayeyi bir kez daha okudum sayfanın kaynak kodlarını bir kez daha okudum. Hala bi kullanıcı adı ve parola arıyorum. Ama en azından neye baktığımı biliyorum şu anda. Kaynak kodlarda gezinirken /assets/lafiya.js' nin yanındaki ibare beni bir kez daha oraya yönlendirdi.
 
-![Picture](/DEFENCESPACECTF-17/Pics/assets_again "Picture")
+![Picture](/DEFENCESPACECTF-17/Pics/assets_again.png "Picture")
 
 Çok fazla karışık şey olduğu için ilk buraya girdiğimde hiç dikkatimi çekmemişti ama şöyle bi göz gezdirince tam da aradığım şeyi buldum. Aradığım askerin mail adresi. Aslında ondan önce bir mesaj  var ama açıkçası mesajdan nasıl bir şey çıkarabilirim bilemedim:)) Bu bir kullancı adı olabilir diyerek hemen bi yere yazıyorum. Dikkatimi çeken bir şey daha vardı, aynı satırda `Bama1987` stringi bir parola olabilir diyerek onu da hemen aldım ve denememi yaptım fakat kabul etmedi. Hmm parola farklı bi şey olmalı diyerek kaynak kodlara bir kez daha döndüm o satırı bir kez daha inceledim ve orda sanki bir harita koordinatı verilmiş bir şehir ismi verilmiş `Borno`. Bunu biraz araştırınca mail adresini bulduğumuz bu abimizin doğduğu yer olduğunu öğrendim ve hemen parola olarak bunu denedim. 
 
