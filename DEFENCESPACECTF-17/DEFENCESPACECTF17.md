@@ -68,7 +68,7 @@ Hemen altta bi de kırmızı bir yorum satırı görüyorum ve resmen ' OR '1'='
 
 Çok güzeeelll. Bir admin login paneli geldi. İlk işim yine kaynak kodlara bakmak ve yorum satırının içinde bir base64 encoded string görüyorum. Base64 decode edince 5. Flag'im geliyor.
 
-![admin_panel_source-code](DEFENCESPACECTF-17/Pics/admin_panel_source-code.png "Picture")
+![acd](DEFENCESPACECTF-17/Pics/acd.png "Picture")
 
 `-> Flag 5 {SQL injection}`
 
